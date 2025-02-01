@@ -35,6 +35,7 @@ The Lambda function automates IAM access key rotation using AWS Secrets Manager 
 ## CDK 
 
 AWS CDK stack automates IAM access key rotation by deploying the AWS Lambda function, IAM role, and supporting AWS resources for secure key management. 
+
 The stack uses L2 constructs and includes AWS SES for email notifications and AWS SNS for failure alerts.
 
 Important: the values are hardcoded with my e-mail address for testing purposes. 
